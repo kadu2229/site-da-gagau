@@ -2,19 +2,55 @@
   margin: 0;
   padding: 0;
 }
+
 .header {
   display: flex;
   height: 110px;
   width: 100%;
-  background-color: #faf0e6;
-  justify-content: center;
+  background-color: #fff7ef;
   box-shadow: 2px 2px 10px rgb(184, 184, 184);
+  justify-content: space-around;
+  align-items: center;
+}
+
+#logo {
+  width: 90px;
+  height: 90px;
+  margin-right: 100px;
+}
+.nav {
+  display: flex ;
+  width: 280px;
   
 }
-#logo {
-  justify-content: center;
-  width: 100px;
-  height: 100px;
-  align-self: center;
-  
+
+.nav li {
+  padding: 10px;
+  list-style: none;
+  max-width: 20%;
+}
+
+.nav li a{
+  text-decoration: none;
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: 700;
+  color: #654540;
+  transition: 0.5s;
+}
+
+.nav li a:hover{
+  color: #000000; ;
+  padding: 5px;
+}
+.shopping a {
+  text-decoration: none;
+  font-family: sans-serif;
+  font-weight: 700;
+  color: #654540;
+  transition: 0.5s;
+  font-size: 25px;
+}
+.shopping a:hover {
+  color: black;
 }
